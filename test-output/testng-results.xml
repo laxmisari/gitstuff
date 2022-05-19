@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-18T19:05:03 PDT" name="Default suite" finished-at="2022-05-18T19:05:13 PDT" duration-ms="10765">
+    <groups>
+    </groups>
+    <test started-at="2022-05-18T19:05:03 PDT" name="Default test" finished-at="2022-05-18T19:05:13 PDT" duration-ms="10765">
+      <class name="com.pageObjects.ProductPage">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.pageObjects.ProductPage@5e82df6a]" started-at="2022-05-18T19:05:03 PDT" name="setUpClass" finished-at="2022-05-18T19:05:04 PDT" duration-ms="1215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="selectItems()[pri:0, instance:com.pageObjects.ProductPage@5e82df6a]" started-at="2022-05-18T19:05:04 PDT" name="selectItems" finished-at="2022-05-18T19:05:13 PDT" duration-ms="9321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectItems -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.pageObjects.ProductPage@5e82df6a]" started-at="2022-05-18T19:05:13 PDT" name="teardown" finished-at="2022-05-18T19:05:13 PDT" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.pageObjects.ProductPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
