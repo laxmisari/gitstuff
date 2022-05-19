@@ -11,6 +11,8 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class BasePage {
 	public static WebDriver driver;
 	
+	//Lauch and quiting the browser
+	
 	@BeforeTest
 	   public void setUpClass()
 	  {
