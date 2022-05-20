@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pageTest.ProductPage">
+      <class name="com.pageTest.logInPageActions">
         <methods>
-          <include name="BackToProductPage"/>
-          <include name="teardown"/>
-          <include name="setUpClass"/>
-          <include name="selectItems"/>
-          <include name="GotoCart"/>
+          <include name="teardDown"/>
+          <include name="logInPageCredentials"/>
+          <include name="LaunchBrowser"/>
         </methods>
-      </class> <!-- com.pageTest.ProductPage -->
+      </class> <!-- com.pageTest.logInPageActions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
